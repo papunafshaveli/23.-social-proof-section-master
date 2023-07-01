@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@400;500;600;700;800;900&family=Lexend+Deca:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  width: 375px;
+  font-family: "League Spartan";
+  padding: 50px 20px 60px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_users {
+  color: hsl(300, 43%, 22%);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.customerssayng {
+  color: hsl(300, 43%, 22%);
+  font-size: 18px;
+  text-align: center;
+}
+
+.rates {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.star {
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.buyers {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.Verified {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.information {
+  position: relative;
+}
+
+.name {
+  font-size: 20px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.status {
+  color: hsl(333, 41%, 45%);
+  position: absolute;
+  font-size: 19px;
+  margin-left: 85px;
+  margin-top: -30px;
+}
+
+.profile {
+  width: 60px;
+  border-radius: 40px;
+}
+
+.review {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    font-family: "League Spartan";
+    padding: 110px 80px 120px 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .somediv {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_users {
+    width: 460px;
+    color: hsl(300, 43%, 22%);
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    font-size: 62px;
+  }
+
+  .customerssayng {
+    margin-top: -20px;
+    width: 500px;
+    color: hsl(303, 10%, 53%);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .rates {
+    margin-left: 125px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rate {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    gap: 30px;
+  }
+  .starss {
+    margin-left: 25px;
+  }
+
+  .star {
+    color: hsl(300, 43%, 22%);
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .first {
+    margin-left: 95px;
+  }
+
+  .second {
+    margin-left: 145px;
+  }
+
+  .third {
+    margin-left: 185px;
+  }
+
+  .buyers {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .one {
+    margin-top: 30px;
+  }
+
+  .two {
+    margin-top: 55px;
+  }
+
+  .three {
+    margin-top: 80px;
+  }
+
+  .Verified {
+    height: 230px;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+  }
+
+  .information {
+    position: relative;
+  }
+
+  .name {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  .status {
+    color: hsl(333, 41%, 45%);
+    position: absolute;
+    font-size: 19px;
+    margin-left: 85px;
+    margin-top: -30px;
+  }
+
+  .profile {
+    width: 60px;
+    border-radius: 40px;
+  }
+
+  .review {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
